@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Cards</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="student-container">
+            <h2>StudentsBook</h2>
+            <input type="text" placeholder="Enter Student Name" class="input-box" id="student-name" />
+            <div class="btn-container">
+                <button class="btn-1" onclick="addStudent()">Add Student</button>
+                <button class="btn-2" onclick="removeStudent()">Remove Student</button>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Student List</h2>
+            <div id="students-list"></div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
